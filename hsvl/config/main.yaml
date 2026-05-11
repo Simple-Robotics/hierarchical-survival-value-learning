@@ -1,0 +1,35 @@
+defaults:
+  - agent: hsvl
+  - override hydra/launcher: our_slurm
+  - override hydra/hydra_logging: disabled
+  - _self_
+
+
+wandb:
+  project: hsvl
+  mode: online
+  group: rebutal
+
+
+seed: null
+save_dir: "outputs"
+
+eval_on_cpu: false
+
+env_name: antmaze-large-navigate-v0
+
+train:
+  train_steps: 1000000
+  log_interval: 10
+  eval_interval: 500000
+  save_interval: 1000000
+
+  eval_tasks: null          # null => evaluate all task_infos
+  eval_episodes: 50
+  video_episodes: 0
+  video_frame_skip: 1
+
+  eval_temperature: 0.0
+  eval_gaussian: null
+
+  only_eval_three_lasts: false

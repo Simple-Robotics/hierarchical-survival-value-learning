@@ -1,0 +1,55 @@
+# Hydra
+outputs/
+multirun/
+
+# Logs / runs
+logs/
+*.log
+
+# Checkpoints
+checkpoints/
+*.ckpt
+*.pkl
+
+# WandB
+wandb/
+
+*.ipynb
+# Data
+#data/
+datasets/
+*.hdf5
+*.npz
+*.npy
+.hydra
+runs
+
+
+# Videos
+videos/
+*.mp4
+.pytest*
+.mypy*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+.mypy_cache
+*.egg-info/
+
+#vscode
+.vscode
+
+launcher/
+.submitit/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+jz.yaml
+humanoid*/
+
+.DS_Store
