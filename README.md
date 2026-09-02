@@ -74,13 +74,12 @@ With the [submitit](https://github.com/facebookincubator/submitit) launcher (con
 # Citing SVL
 
 ```bibtex
-@misc{tiofack2026svlgoalconditionedreinforcementlearning,
-    title={SVL: Goal-Conditioned Reinforcement Learning as Survival Learning},
-    author={Franki Nguimatsia Tiofack and Fabian Schramm and Théotime Le Hellard and Justin Carpentier},
+@inproceedings{
+    tiofack2026svl,
+    title={{SVL}: Goal-Conditioned Reinforcement Learning as Survival Learning},
+    author={Franki Nguimatsia Tiofack and Fabian Schramm and Th{\'e}otime Le Hellard and Justin Carpentier},
+    booktitle={Forty-third International Conference on Machine Learning},
     year={2026},
-    eprint={2604.17551},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG},
-    url={https://arxiv.org/abs/2604.17551},
+    url={https://openreview.net/forum?id=qIOcJSCGn2}
 }
 ```
